@@ -1,0 +1,28 @@
+/* components.css */
+@import "tailwindcss";
+
+@layer components {
+    .product-card {
+        @apply bg-white rounded-xl shadow-md min-w-72 shrink-0 transition-transform hover:-translate-y-1;
+    }
+
+    .product-card img {
+        @apply rounded-2xl;
+    }
+
+    .product-card-content {
+        @apply p-6;
+    }
+
+    .product-card-title {
+        @apply mb-1 text-lg font-semibold;
+    }
+
+    .product-card-description {
+        @apply mb-4 text-sm text-gray-600;
+    }
+
+    .product-card-button {
+        @apply text-center block w-full items-center px-4 py-2 border border-transparent text-sm font-medium rounded-lg shadow-sm text-white bg-black cursor-pointer focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary hover:bg-red-600;
+    }
+}
