@@ -7,7 +7,7 @@ Press Enter multiple times to skip the custom configuration.
     npm install tailwindcss @tailwindcss/cli
 
 3. Create Project Structure
-Create the following folder structure:
+Create the following folder structure because we using GitHub:
     /docs
       └── input.css
 
