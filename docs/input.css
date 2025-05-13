@@ -5,7 +5,7 @@
     --font-ubuntu: "Ubuntu", "sans-serif";
 
 }
-
+/* 
 @utility scrollbar-hidden {
   &::-webkit-scrollbar {
     display: none;
@@ -13,16 +13,16 @@
 }
 
 @layer base {
-  body {
-    scrollbar-width: none; /* Firefox */
-    -ms-overflow-style: none;  /* IE and Edge */
-  }
+  body { */
+    /* scrollbar-width: none; /* Firefox */
+    /* -ms-overflow-style: none;  /* IE and Edge 
+  }  */
 
-  body::-webkit-scrollbar {
-    display: none;  /* Chrome, Safari, and Opera */
-  }
-}
+  /* body::-webkit-scrollbar {
+    display: none;  Chrome, Safari, and Opera */
+  /* }
+} */
 
-@utility no-scrollbar {
+/* @utility no-scrollbar {
   @apply [scrollbar-width:none] [&::-webkit-scrollbar]:hidden;
-}
+} */
